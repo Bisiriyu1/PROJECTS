@@ -1,9 +1,8 @@
 *{
 	font-family: 'Montserrat', sans-serif;
-	margin: 0;
 }
 
-#header > img{
+#header img{
 	height: 90px;
 }
 
@@ -63,7 +62,6 @@
 	margin-left: 200px;
 	margin-right: 200px;
 	margin-top: 40px;
-	position: absolute;
 
 }
 
@@ -116,4 +114,83 @@ div {
 
 .row p strong {
 	font-size: 15px;
+}
+
+#logo {
+	width: 230px;
+	height: 90px;
+}
+
+#footercontent {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#footercontent > div div {
+	display: flex;
+	font-size: 10px;
+	align-items: flex-end;
+}
+
+.contentheader h3 {
+	margin-bottom: 5px;
+}
+
+.contentheader p {
+	margin-left: 5px;
+}
+
+.contentheader p span {
+	font-weight: bolder;
+}
+
+.contentheader {
+	margin-left: 100px;
+}
+
+.contentheader > p span {
+	font-weight: bolder;
+	font-size: 10px;
+}
+
+.contentheader > p {
+	font-size: 10px;
+}
+
+.contentheader > ul {
+	list-style-type: none;
+	text-align: left;
+	padding-left: 2px;
+	font-size: 10px;
+}
+
+.contentheader > ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.contentheader > ul li {
+	margin-top: 15px;
+}
+
+.contentheader img {
+	height: 60px;
+	width: 60px;
+}
+
+.contentheader div {
+	padding-left: 2px;
+	margin-left: 2px;
+	height: 70px;
+	width: 300px;	
+}
+
+#footersection p span {
+	font-weight: bolder;
+}
+
+#footersection > p {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 10px;
 }
